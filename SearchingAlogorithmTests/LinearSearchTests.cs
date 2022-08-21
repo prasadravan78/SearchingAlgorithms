@@ -1,16 +1,44 @@
 namespace SearchingAlogorithmTests
 {
-    public class LinearSearchTests
+    using LinearSearch;
+    using System;
+
+    public class LinearSearchTests : TestData
     {
-        [SetUp]
-        public void Setup()
+        [Test]
+        public void LinearSearchValidInput()
         {
+            RunTestsForLinearSearchValid(LinearSearch.LinearSearchAlgorithm);
         }
 
         [Test]
-        public void Test1()
+        public void LinearSearchInValidInput()
         {
-            Assert.Pass();
+            RunTestsForLinearSearchInvalid(LinearSearch.LinearSearchAlgorithm);
+        }
+
+        private void RunTestsForLinearSearchValid(Func<int[], int, bool> linearSearchAlgorithm)
+        {
+            var inputData = GetValidInputs();
+
+            foreach (var keyValuePair in inputData)
+            {
+                var result = linearSearchAlgorithm(keyValuePair.Key, keyValuePair.Value);
+
+                Assert.That(result, Is.EqualTo(true));
+            }
+        }
+
+        private void RunTestsForLinearSearchInvalid(Func<int[], int, bool> linearSearchAlgorithm)
+        {
+            var inputData = GetValidInputs();
+
+            foreach (var keyValuePair in inputData)
+            {
+                var result = linearSearchAlgorithm(keyValuePair.Key, keyValuePair.Value);
+
+                Assert.That(result, Is.EqualTo(false));
+            }
         }
     }
 }
