@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{DCFE17F0-DF5B-4861-8BA0-6B2E9F81F992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{DCFE17F0-DF5B-4861-8BA0-6B2E9F81F992}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingAlogorithmTests", "SearchingAlogorithmTests\SearchingAlogorithmTests.csproj", "{65693438-6A9C-4890-A513-0BFB80D87F69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchingAlogorithmTests", "SearchingAlogorithmTests\SearchingAlogorithmTests.csproj", "{65693438-6A9C-4890-A513-0BFB80D87F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{12A54F40-AB85-4152-A758-BFA0730F9576}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{65693438-6A9C-4890-A513-0BFB80D87F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65693438-6A9C-4890-A513-0BFB80D87F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65693438-6A9C-4890-A513-0BFB80D87F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A54F40-AB85-4152-A758-BFA0730F9576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A54F40-AB85-4152-A758-BFA0730F9576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A54F40-AB85-4152-A758-BFA0730F9576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A54F40-AB85-4152-A758-BFA0730F9576}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

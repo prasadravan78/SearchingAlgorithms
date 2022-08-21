@@ -1,7 +1,7 @@
 namespace SearchingAlogorithmTests
 {
-    using LinearSearch;
     using System;
+    using LinearSearch;    
 
     public class LinearSearchTests : TestData
     {
@@ -31,7 +31,7 @@ namespace SearchingAlogorithmTests
 
         private void RunTestsForLinearSearchInvalid(Func<int[], int, bool> linearSearchAlgorithm)
         {
-            var inputData = GetValidInputs();
+            var inputData = GetInValidInputs();
 
             foreach (var keyValuePair in inputData)
             {
