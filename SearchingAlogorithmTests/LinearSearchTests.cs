@@ -1,8 +1,9 @@
 namespace SearchingAlogorithmTests
 {
     using System;
-    using LinearSearch;    
+    using LinearSearch;
 
+    [TestFixture]
     public class LinearSearchTests : TestData
     {
         [Test]

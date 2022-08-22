@@ -17,7 +17,7 @@ namespace SearchingAlogorithmTests
             RunTestsForBinarySearchInvalid(BinarySearch.BinarySearchAlgorithm);
         }
 
-        private void RunTestsForBinarySearchValid(Func<int[], int, bool> binarySearchAlgorithm)
+        private static void RunTestsForBinarySearchValid(Func<int[], int, bool> binarySearchAlgorithm)
         {
             var inputData = GetValidInputsBinarySearch();
 
@@ -29,7 +29,7 @@ namespace SearchingAlogorithmTests
             }
         }
 
-        private void RunTestsForBinarySearchInvalid(Func<int[], int, bool> binarySearchAlgorithm)
+        private static void RunTestsForBinarySearchInvalid(Func<int[], int, bool> binarySearchAlgorithm)
         {
             var inputData = GetInValidInputsBinarySearch();
 

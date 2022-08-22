@@ -2,7 +2,7 @@
 {
     public class BinarySearch
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var array = new int[] { -3,1 };
 

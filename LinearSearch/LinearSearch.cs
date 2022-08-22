@@ -2,7 +2,7 @@
 {
     public class LinearSearch
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var array = new int[] { 3, 6, 2, 9, 8 };
 
